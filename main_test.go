@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/adam-ghafara/geoquery/gq"
-	"github.com/petapedia/geoquery/helper"
+	"github.com/adam-ghafara/geoquery/helper"
 )
 
 func TestUpdateGetData(t *testing.T) {

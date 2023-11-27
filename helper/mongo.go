@@ -1,8 +1,8 @@
 package helper
 
 import (
+	"github.com/adam-ghafara/geoquery/models"
 	"github.com/aiteung/atdb"
-	"github.com/petapedia/geoquery/models"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 )

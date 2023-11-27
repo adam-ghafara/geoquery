@@ -7,7 +7,6 @@ require (
 	github.com/aiteung/atdb v0.1.3
 	github.com/aiteung/atmessage v0.1.0
 	github.com/aiteung/module v0.1.0
-	github.com/petapedia/geoquery v0.0.3
 	go.mongodb.org/mongo-driver v1.13.0
 	golang.org/x/crypto v0.15.0
 )

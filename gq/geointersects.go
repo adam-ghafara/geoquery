@@ -29,3 +29,23 @@ func GeoIntersects(mongoconn *mongo.Database, long float64, lat float64) (namalo
 	return lokasi.Properties.Name
 
 }
+
+// func GeoWithin(mongoconn *mongo.Database, long float64, lat float64) (namalokasi string) {
+// 	lokasicollection := mongoconn.Collection("GISDB")
+// 	filter := bson.M{
+// 		"geometry": bson.M{
+// 			"$geoWithin": bson.M{
+// 				"$geometry": bson.M{
+// 					"type":        "Point",
+// 					"coordinates": []float64{long, lat},
+// 				},
+// 			},
+// 		},
+// 	}
+// 	var lokasi models.Lokasi
+// 	err := lokasicollection.FindOne(context.TODO(), filter).Decode(&lokasi)
+// 	if err != nil {
+// 		log.Printf("GeoWithin: %v\n", err)
+// 	}
+// 	return lokasi.Properties.Name
+// }
